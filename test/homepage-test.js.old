@@ -1,0 +1,12 @@
+const assert = require("assert");
+
+describe("Test LTFRI homepage", () => {
+  it("Validate whether the LTFRI homepage title is correct", () => {
+    browser.url("./");
+    const title = browser.getTitle();
+    assert.strictEqual(
+      title,
+      "Check the long term flood risk for an area in England - GOV.UK"
+    );
+  });
+});

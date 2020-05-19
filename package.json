@@ -1,0 +1,43 @@
+{
+  "name": "ltfri",
+  "version": "1.0.0",
+  "description": "LTFRI WebdriverIO Automation",
+  "main": "hello-world.js",
+  "scripts": {
+    "selenium-server": "./node_modules/.bin/selenium-standalone start",
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afashakin/LTFRI.git"
+  },
+  "keywords": [
+    "LTFRI",
+    "Automation",
+    "Framework"
+  ],
+  "author": "David Fashakin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afashakin/LTFRI/issues"
+  },
+  "homepage": "https://github.com/afashakin/LTFRI#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3",
+    "@wdio/cli": "^5.18.7",
+    "@wdio/local-runner": "^5.18.7",
+    "@wdio/mocha-framework": "^5.18.7",
+    "@wdio/selenium-standalone-service": "^5.16.10",
+    "@wdio/spec-reporter": "^5.18.7",
+    "@wdio/sync": "^5.18.7",
+    "chai": "^4.2.0",
+    "chromedriver": "^80.0.1",
+    "mocha": "^7.0.1",
+    "selenium-standalone": "^6.17.0",
+    "wdio-chromedriver-service": "^5.0.2",
+    "webdriverio": "^5.18.7"
+  }
+}
